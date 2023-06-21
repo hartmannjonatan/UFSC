@@ -1,0 +1,26 @@
+{
+    "DESC10": {
+        "cod": "DESC10",
+        "categoria": "QUALQUER_CATEGORIA",
+        "valorMinimo": 15.0,
+        "desconto": 0.1
+    },
+    "DESC15": {
+        "cod": "DESC15",
+        "categoria": "QUALQUER_CATEGORIA",
+        "valorMinimo": 30.0,
+        "desconto": 0.15
+    },
+    "RESTAURANTOFF": {
+        "cod": "RESTAURANTOFF",
+        "categoria": "Restaurantes",
+        "valorMinimo": 20.0,
+        "desconto": 0.2
+    },
+    "SWEETPRICE": {
+        "cod": "SWEETPRICE",
+        "categoria": "Sorveterias",
+        "valorMinimo": 5.0,
+        "desconto": 0.1
+    }
+}

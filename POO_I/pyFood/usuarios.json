@@ -1,0 +1,47 @@
+{
+    "joao123": {
+        "login": "joao123",
+        "senha": "12345",
+        "type": "cliente"
+    },
+    "restaurante_floripa": {
+        "login": "restaurante_floripa",
+        "senha": "comida123",
+        "type": "loja"
+    },
+    "acaiDaIlha": {
+        "login": "acaiDaIlha",
+        "senha": "acaiBarato",
+        "type": "loja"
+    },
+    "jonatan": {
+        "login": "jonatan",
+        "senha": "12345678",
+        "type": "cliente"
+    },
+    "mariaGonzales": {
+        "login": "mariaGonzales",
+        "senha": "12345678",
+        "type": "cliente"
+    },
+    "pizzahut": {
+        "login": "pizzahut",
+        "senha": "pizzahut",
+        "type": "loja"
+    },
+    "vanvan": {
+        "login": "vanvan",
+        "senha": "123",
+        "type": "cliente"
+    },
+    "eva": {
+        "login": "eva",
+        "senha": "12345",
+        "type": "cliente"
+    },
+    "ana_almeida": {
+        "login": "ana_almeida",
+        "senha": "12345",
+        "type": "cliente"
+    }
+}

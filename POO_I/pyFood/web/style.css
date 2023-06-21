@@ -1,0 +1,196 @@
+@font-face {
+    font-family: pyFood;
+    src: url(./Flux\ Regular.otf);
+}
+
+.bg-color {
+    background-color: #F2F2F2;
+}
+
+.bg-blue {
+    background-color: #387CA6;
+}
+
+.login-box {
+    border: solid 5px #387CA6;
+    border-radius: 5%;
+    min-height: 60vh;
+    min-width: 60vh;
+    background-color: #F2F2F2;
+}
+
+.cadastro-box{
+    border: solid 5px #387CA6;
+    border-radius: 5%;
+    min-height: 80vh;
+    min-width: 90vh;
+    background-color: #F2F2F2;
+}
+
+.fontPyFood {
+    font-family: pyFood;
+    color: #387CA6;
+}
+
+.fontPyFoodLight {
+    font-family: pyFood;
+    color: #F2F2F2;
+}
+
+.linkMenu {
+    align-items: center;
+    background-color: transparent;
+    color: #F2F2F2;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+}
+
+.linkMenu:hover,
+.link-ative {
+    color: #F2B33D;
+    font-weight: bold !important;
+}
+
+.linkMenu:before {
+    background-color: #F2B33D;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25, .8, .25, 1);
+    width: 0;
+}
+
+.linkMenu:hover:before {
+    background-color: #F2B33D;
+    width: 3rem;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.logout {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+svg:hover {
+    font-weight: bold;
+    fill: #F2B33D;
+}
+
+.bordered-text {
+    position: relative;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: inset 0px 0px 0px 2px #387CA6;
+}
+
+.bordered-text::after {
+    content: attr(data-text);
+    font-size: calc(1.3rem + .6vw);
+    color: #387CA6;
+    position: absolute;
+    top: calc((1.3rem + .6vw) / (-2) - 0.5rem);
+    left: 10px;
+    padding: 0 5px;
+    background-color: #f1f1f1;
+}
+
+#pedidos {
+    overflow-y: auto;
+    max-height: 35vh;
+}
+
+#cupons {
+    overflow-y: auto;
+    max-height: 25vh;
+}
+
+#escolherLojas,
+#escolherProdutos,
+#meusProdutos {
+    overflow-y: auto;
+    max-height: 80vh;
+    min-height: 80vh;
+    background-color: #387ca62f;
+    border-radius: 2%;
+}
+
+.cardLoja,
+.cardProduto {
+    transition: all 0.09s ease-in-out;
+}
+
+.cardLoja:hover,
+.cardProduto:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 3px #387CA6;
+}
+
+#btnPedido {
+    background: #387CA6;
+    padding: 20px;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10%;
+    transition: all .5s ease-in-out;
+    height: 30px;
+    width: 30px;
+}
+
+#btnPedido:hover {
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+#btnPedido:hover:before {
+    margin-left: 0%;
+    transform: rotate(24deg);
+}
+
+#btnPedido::before {
+    content: "";
+    background-image: url("./pedidoSacola.png");
+    height: 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    transition: all .9s ease-in-out;
+    background-size: 100%;
+}
+
+#itemsSacola{
+    margin-top: -20%;
+    margin-left: 60%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #F2B33D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #387CA6;
+    font-weight: bold;
+}
+
+/* #itemsSacola span{
+    color: #387CA6;
+    background-color: #F2B33D;
+    width: 100%;
+    padding: 100%;
+    border-radius: 100%;
+} */

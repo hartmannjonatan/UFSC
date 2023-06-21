@@ -1,0 +1,242 @@
+{
+    "joao123": {
+        "login": "joao123",
+        "senha": "12345",
+        "nome": "Jo\u00e3o Jos\u00e9 Amaral",
+        "cpf": "00011122200",
+        "cupons": [
+            {
+                "cod": "DESC10",
+                "categoria": "QUALQUER_CATEGORIA",
+                "valorMinimo": 15.0,
+                "desconto": 0.1
+            }
+        ],
+        "historicoPedidos": {
+            "pizzahut0806232001139": {
+                "cod": "pizzahut0806232001139",
+                "loja": {
+                    "nome": "Pizza Hut",
+                    "categoria": "Pizzarias",
+                    "login": "pizzahut"
+                },
+                "cliente": {
+                    "cpf": "00011122200",
+                    "nome": "Jo\u00e3o Amaral",
+                    "login": "joao123"
+                },
+                "enderecoEntrega": {
+                    "cidade": "Florian\u00f3polis",
+                    "bairro": "Trindade",
+                    "rua": "Maur\u00edcio Cardoso",
+                    "cep": "43232-00",
+                    "num": "580",
+                    "complemento": ""
+                },
+                "produtosComprados": {
+                    "0": {
+                        "quantidade": 1,
+                        "produto": {
+                            "nome": "Pizza Grande - Mussarela",
+                            "cod": 1,
+                            "valor": 62,
+                            "descricao": "Pizza de 35cm de di\u00e2metro, sabor mussarela.",
+                            "adicionais": [
+                                {
+                                    "nome": "Borda de cheddar",
+                                    "valorAdicional": 5,
+                                    "cod": 0
+                                }
+                            ],
+                            "totalProduto": 67
+                        }
+                    }
+                },
+                "datetime": "08/06/2023 00:11:39",
+                "taxaEntrega": 10.0,
+                "total": 77.0,
+                "subtotal": 67.0,
+                "cupom": {}
+            },
+            "acaiDaIlha2106232014843": {
+                "cod": "acaiDaIlha2106232014843",
+                "loja": {
+                    "nome": "A\u00e7a\u00ed da Ilha",
+                    "categoria": "Sorveterias",
+                    "login": "acaiDaIlha"
+                },
+                "cliente": {
+                    "cpf": "00011122200",
+                    "nome": "Jo\u00e3o Amaral",
+                    "login": "joao123"
+                },
+                "enderecoEntrega": {
+                    "cidade": "Florian\u00f3polis",
+                    "bairro": "Trindade",
+                    "rua": "Maur\u00edcio Cardoso",
+                    "cep": "12345-66",
+                    "num": "22",
+                    "complemento": ""
+                },
+                "produtosComprados": {
+                    "0": {
+                        "quantidade": 1,
+                        "produto": {
+                            "nome": "A\u00e7a\u00ed 500ml - Monte o Seu",
+                            "cod": 0,
+                            "valor": 15.0,
+                            "descricao": "A\u00e7a\u00ed de 500ml, permite at\u00e9 3 adicionais",
+                            "adicionais": [
+                                {
+                                    "nome": "Leite em p\u00f3",
+                                    "valorAdicional": 3.0,
+                                    "cod": 0
+                                },
+                                {
+                                    "nome": "Banana",
+                                    "valorAdicional": 3.0,
+                                    "cod": 1
+                                }
+                            ],
+                            "totalProduto": 21.0
+                        }
+                    }
+                },
+                "datetime": "21/06/2023 01:48:43",
+                "taxaEntrega": 10.0,
+                "total": 28.9,
+                "subtotal": 21.0,
+                "cupom": {
+                    "cod": "SWEETPRICE",
+                    "desconto": 0.1,
+                    "categoria": "Sorveterias",
+                    "valorMinimo": 5.0
+                }
+            },
+            "pizzahut2106232024705": {
+                "cod": "pizzahut2106232024705",
+                "loja": {
+                    "nome": "Pizza Hut",
+                    "categoria": "Pizzarias",
+                    "login": "pizzahut"
+                },
+                "cliente": {
+                    "cpf": "00011122200",
+                    "nome": "Jo\u00e3o Amaral",
+                    "login": "joao123"
+                },
+                "enderecoEntrega": {
+                    "cidade": "Florian\u00f3polis",
+                    "bairro": "Trindade",
+                    "rua": "Maur\u00edcio Cardoso",
+                    "cep": "88040-365",
+                    "num": "8",
+                    "complemento": ""
+                },
+                "produtosComprados": {
+                    "0": {
+                        "quantidade": 1,
+                        "produto": {
+                            "nome": "Pizza Grande - Mussarela",
+                            "cod": 1,
+                            "valor": 62,
+                            "descricao": "Pizza de 35cm de di\u00e2metro, sabor mussarela.",
+                            "adicionais": [
+                                {
+                                    "nome": "Borda de cheddar",
+                                    "valorAdicional": 5,
+                                    "cod": 0
+                                }
+                            ],
+                            "totalProduto": 67
+                        }
+                    }
+                },
+                "datetime": "21/06/2023 02:47:05",
+                "taxaEntrega": 10.0,
+                "total": 77.0,
+                "subtotal": 67.0,
+                "cupom": {}
+            }
+        }
+    },
+    "jonatan": {
+        "login": "jonatan",
+        "senha": "12345678",
+        "nome": "Jonatan Hartmann",
+        "cpf": "03864808006",
+        "cupons": [],
+        "historicoPedidos": {}
+    },
+    "mariaGonzales": {
+        "login": "mariaGonzales",
+        "senha": "12345678",
+        "nome": "Maria Gonzales",
+        "cpf": "12345678900",
+        "cupons": [
+            {
+                "cod": "DESC10",
+                "categoria": "QUALQUER_CATEGORIA",
+                "valorMinimo": 15.0,
+                "desconto": 0.1
+            }
+        ],
+        "historicoPedidos": {}
+    },
+    "eva": {
+        "login": "eva",
+        "senha": "12345",
+        "nome": "Evandir Amaral",
+        "cpf": "02728405050",
+        "cupons": [],
+        "historicoPedidos": {
+            "restaurante_floripa0806230191818": {
+                "cod": "restaurante_floripa0806230191818",
+                "loja": {
+                    "nome": "Restaurante Floripa",
+                    "categoria": "Restaurantes",
+                    "login": "restaurante_floripa"
+                },
+                "cliente": {
+                    "cpf": "02728405050",
+                    "nome": "Evandir Amaral",
+                    "login": "eva"
+                },
+                "enderecoEntrega": {
+                    "cidade": "Florian\u00f3polis",
+                    "bairro": "Centro",
+                    "rua": "Arauc\u00e1rias",
+                    "cep": "43232-00",
+                    "num": "22",
+                    "complemento": "casa"
+                },
+                "produtosComprados": {
+                    "0": {
+                        "quantidade": 1,
+                        "produto": {
+                            "nome": "Marmita Grande",
+                            "cod": 1,
+                            "valor": 20.5,
+                            "descricao": "Feij\u00e3o, arroz, macarr\u00e3o, lasanha bolonhesa, lingui\u00e7a, bife grelhado e batata frita.",
+                            "adicionais": [],
+                            "totalProduto": 20.5
+                        }
+                    }
+                },
+                "datetime": "08/06/2023 19:18:18",
+                "taxaEntrega": 10.0,
+                "total": 30.5,
+                "subtotal": 20.5,
+                "cupom": {}
+            }
+        }
+    },
+    "ana_almeida": {
+        "login": "ana_almeida",
+        "senha": "12345",
+        "nome": "Ana Almeida",
+        "cpf": "11111111111",
+        "cupons": [],
+        "historicoPedidos": {}
+    }
+}
